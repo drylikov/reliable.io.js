@@ -1,0 +1,31 @@
+{
+  "name": "reliable.io",
+  "version": "1.0.0",
+  "description": "A javascript port of reliable.io",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "fuzz": "DEBUG=reliable.io node fuzz",
+    "soak": "DEBUG=reliable.io node soak",
+    "test": "tap test -C",
+    "test-local": "DEBUG=reliable.io node ./node_modules/.bin/tap test -C"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "engines": {
+    "node": ">= 6"
+  },
+  "devDependencies": {
+    "debug": "^3.1.0",
+    "tap": "^11.1.0"
+  },
+  "dependencies": {}
+}
